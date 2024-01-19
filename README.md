@@ -1,4 +1,9 @@
 # Community-Management-API
+
+## Installation
+##### npm install
+##### nodemon index.js
+
 ## About
 You run a SaaS Platform that enables user to make their communities and add members to it.
 
