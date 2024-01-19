@@ -32,3 +32,38 @@ Validations for each API must be carried out.
 ![member](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/cbdb8553-9131-4791-8c35-00fb8dcaaba1)
 ![table-chart](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/0eba7a11-fc36-4d95-8f43-ea280e323314)
 
+
+## Role
+Role is assigned to a person who is a member of the community.
+
+### POST Create
+#### /v1/role
+paylod:
+{
+  "name": "Community Admin"
+}
+
+### GET Get All
+#### /v1/role
+List all the data with pagination.
+
+meta.total - Total number of documents (eg: 500)
+
+meta.pages - Total number of pages (with 10 documents per page, eg: 50)
+
+meta.page - Current page number (eg: 1)
+
+## User
+### POST Sign Up
+#### /v1/auth/signup
+
+It should not return password in response.
+
+It should return the access token to sign in in meta.access_token field.
+
+Payload: 
+{
+  "name": "Dolores Abernathy",
+  "email": "dolores@westworld.com",
+  "password": "vGuFQ1nJSSrdMaYV1LiN3G1i"
+}
