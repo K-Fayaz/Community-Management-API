@@ -26,10 +26,9 @@ Validations for each API must be carried out.
 ## Architecture
 ![Hiring-Assignment](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/3e0e98e4-f003-46f9-97ed-a741837723f2)
 
-User (user)
-###Key	       ###Kind	               ###Notes
-id	        string (snowflake)	 primary key
-name	      varchar(64)	        default: null
-email	     varchar(128)	       unique
-password	  varchar(64)	          -
-created_at	datetime	             -
+## API End points
+![user](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/b36bd78e-a124-4ca4-b882-eed1a8fdd882)
+![role](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/4d8c9819-0f2c-4ba1-abd2-c4afea3d6294)
+![member](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/cbdb8553-9131-4791-8c35-00fb8dcaaba1)
+![table-chart](https://github.com/K-Fayaz/Community-Management-API/assets/91357470/0eba7a11-fc36-4d95-8f43-ea280e323314)
+
